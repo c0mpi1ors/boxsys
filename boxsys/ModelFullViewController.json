@@ -1,0 +1,41 @@
+{
+    "M_BANNER_001": {
+        "width": 320,
+        "height": 100,
+        "blocks": [
+            {
+                "name": "1 ",
+                "position": [
+                    10,
+                    10,
+                    300,
+                    50
+                ],
+                "map": "image1"
+            },
+            {
+                "name": "2",
+                "position": [
+                    10,
+                    10,
+                    20,
+                    20
+                ],
+                "map": "image2"
+            }
+        ]
+    },
+    "M_VIEW_001": {
+        "type": "table",
+        "width": 320,
+        "height": 480,
+        "blocks": [
+            {
+                "type": "model",
+                "name": "M_BANNER_001",
+                "map": "banner",
+                "count ": 1
+            }
+        ]
+    }
+}
