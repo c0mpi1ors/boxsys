@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JuBoxSys2.h"
 
-#import "BoxSysViewController.h"
+@interface FullViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, JuBoxSysDelegate>
 
-@interface FullViewController : BoxSysViewController
+
 
 @end

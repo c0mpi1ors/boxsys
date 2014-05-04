@@ -1,0 +1,404 @@
+{
+    "JU001": {
+        "type": "group",
+        "width": 320,
+        "height": 94,
+        "blocks": [
+                   {
+                   "name":"button",
+                   "map":"background",
+                   "position": [
+                                0,
+                                0,
+                                320,
+                                94
+                                ],
+                   "parameters":{
+                   "imageURL":"image"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"left",
+                   "position":[
+                               12,
+                               12,
+                               93,
+                               70
+                               ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTAD001"
+                   }
+                   },
+                   {
+                   "name": "button",
+                   "map":"center",
+                   "position": [
+                                114,
+                                12,
+                                92,
+                                70
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL": "url",
+                   "trackId":"trackId",
+                   "trackName": "JRTAD002"
+                   }
+                   },
+                   {
+                   "name": "button",
+                   "map":"right",
+                   "position": [
+                                215,
+                                12,
+                                92,
+                                70
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL": "url",
+                   "trackId":"trackId",
+                   "trackName": "JRTAD003"
+                   }
+                   }
+                   ]
+    },
+    "JU002": {
+        "type": "group",
+        
+        "width": 320,
+        "height": 152,
+        "blocks": [
+                   {
+                   "name":"button",
+                   "map":"background",
+                   "position": [
+                                0,
+                                0,
+                                320,
+                                152
+                                ],
+                   "parameters":{
+                   "imageURL":"image"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"left",
+                   "position": [
+                                12,
+                                12,
+                                128,
+                                128
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD001"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"right_top",
+                   "position": [
+                                148,
+                                12,
+                                160,
+                                60
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD002"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"right_buttom",
+                   "position": [
+                                148,
+                                80,
+                                160,
+                                60
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   }
+                   }
+                   ]
+    },
+    "JU003": {
+        "type": "group",
+        "width": 320,
+        "height": 52,
+        "blocks": [
+                   {
+                   "name":"button",
+                   "map":"background",
+                   "position": [
+                                0,
+                                0,
+                                320,
+                                52
+                                ],
+                   "parameters":{
+                   "imageURL":"image"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"c1",
+                   "position": [
+                                0,
+                                0,
+                                80,
+                                52
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD001"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"c2",
+                   "position": [
+                                80,
+                                0,
+                                80,
+                                52
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD002"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"c3",
+                   "position": [
+                                160,
+                                0,
+                                80,
+                                52
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"c4",
+                   "position": [
+                                240,
+                                0,
+                                80,
+                                52
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   }
+                   }
+                   ]
+    },
+    "category_today": {
+        "type": "group",
+        "width": 320,
+        "height": 179,
+        "blocks": [
+                   {
+                   "name":"button",
+                   "map":"background",
+                   "position": [
+                                0,
+                                0,
+                                320,
+                                179
+                                ],
+                   "parameters":{
+                   "imageURL":"image"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_tc1",
+                   "position": [
+                                0,
+                                35,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD001"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_tc2",
+                   "position": [
+                                80,
+                                35,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD002"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_tc3",
+                   "position": [
+                                160,
+                                35,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_tc4",
+                   "position": [
+                                240,
+                                35,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_bc1",
+                   "position": [
+                                0,
+                                107,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   }
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_bc2",
+                   "position": [
+                                80,
+                                107,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   } 
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_bc3", 
+                   "position": [
+                                160,
+                                107,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   } 
+                   },
+                   {
+                   "name":"button",
+                   "map":"ct_bc4", 
+                   "position": [
+                                240,
+                                107,
+                                80,
+                                72
+                                ],
+                   "parameters":{
+                   "imageURL":"image",
+                   "htmlURL":"url",
+                   "trackId":"trackId",
+                   "trackName":"JRTBD003"
+                   } 
+                   }
+                   ]
+    },
+    "Today": {
+        "type": "array",
+        "blocks": [
+                   {
+                   "name":"JU003",
+                   "map":"brand3" 
+                   },
+                   {
+                   "name":"JU001",
+                   "map":"brand1" 
+                   },
+                   {
+                   "name":"JU002",
+                   "map":"brand2" 
+                   },
+                   {
+                   "name":"zdq"
+                   },
+                   {
+                   "name":"category_today",
+                   "map":"category_today_data" 
+                   }
+                   ]
+    },
+    "Life": {
+        "type": "array",
+        "blocks": [
+                   {
+                   "name":"JU002",
+                   "map":"brand1" 
+                   }
+                   ]
+    }
+}

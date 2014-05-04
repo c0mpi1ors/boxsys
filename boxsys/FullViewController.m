@@ -15,34 +15,32 @@
 
 @implementation FullViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-
-
 - (void)viewDidLoad
 {
-    self.entryName = @"M_VIEW_001";
-    
-    NSDictionary *ddata = [AppDelegate getDictionaryFromFile:@"DataFullViewController"];
-    if (!ddata) {
-        return;
-    }
-    self.data = ddata;
-    
     [super viewDidLoad];
+    
+    NSDictionary *dData = [AppDelegate getDictionaryFromFile:@"DataFullViewController"];
+    if (!dData) return;
+    [JuBoxSys2 loadBox:@"Today"
+               withKey:@"ViewController"
+              withData:dData
+                 width:320 height:0 withDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIView *) getContainer
+{
+    return self.view;
+}
+
+- (void) onBoxSysEvent:(id) sender withArgs:(NSDictionary *) argsMap
+{
+    
 }
 
 @end

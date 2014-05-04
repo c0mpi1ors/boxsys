@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SBJson/SBJson.h"
-#import "JuBoxSys.h"
+#import "JuBoxSys2.h"
 
 @implementation AppDelegate
 
@@ -16,9 +16,11 @@
 {
     // Override point for customization after application launch.
     
-    NSDictionary *dmodel = [AppDelegate getDictionaryFromFile:@"ModelFullViewController"];
+    [JuBoxSys2 initBoxSys:100];
+    
+    NSDictionary *dmodel = [AppDelegate getDictionaryFromFile:@"JuModel"];
     if (dmodel) {
-        [JuBoxSys loadModel:dmodel];
+        [JuBoxSys2 loadModel:dmodel];
     }
     
     return YES;

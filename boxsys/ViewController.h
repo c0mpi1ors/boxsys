@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "JuBoxSys.h"
+#import "JuBoxSys2.h"
 
 @interface ViewController : UIViewController <JuBoxSysDelegate>
 

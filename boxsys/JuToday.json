@@ -1,0 +1,112 @@
+{
+    "brand1": {
+        "background": {
+            "image": "http://gtms01.alicdn.com/tps/i1/T1aJ8NFDtaXXb87mEr-640-188.png"
+        },
+        "left": {
+            "image": "http://gtms03.alicdn.com/tps/i3/T1jcVTFKhcXXazVAoy-187-140.jpg",
+            "url": "http://h5.m.taobao.com/jhsm/daytime-switcher.html",
+            "trackName": "zjwh_早聚晚惠"
+        },
+        "center": {
+            "image": "http://gtms01.alicdn.com/tps/i1/T19bCaFtBfXXXsXJZw-186-140.jpg",
+            "url": "http://h5.m.taobao.com/jhsm/zdj-taobao.html",
+            "trackName": "JBP_聚划算聚宝盆整点聚"
+        },
+        "right": {
+            "image": "http://gtms02.alicdn.com/tps/i2/T14bd2FSldXXazVAoy-187-140.jpg",
+            "url": "http://h5.m.taobao.com/channel/act/juhuasuan/m/zero-taobao-425.php",
+            "trackName": "lycj_0元抽奖"
+        }
+    },
+    "brand2": {
+        "background": {
+            "image": "http://gtms04.alicdn.com/tps/i4/T1gahMFBXbXXbfP_gr-640-304.png"
+        },
+        "left": {
+            "image": "http://gtms03.alicdn.com/tps/i3/T1jcVTFKhcXXazVAoy-187-140.jpg",
+            "url": "http://h5.m.taobao.com/jhsm/daytime-switcher.html",
+            "trackName": "zjwh_早聚晚惠"
+        },
+        "right_top": {
+            "image": "http://gtms01.alicdn.com/tps/i1/T19bCaFtBfXXXsXJZw-186-140.jpg",
+            "url": "http://h5.m.taobao.com/jhsm/zdj-taobao.html",
+            "trackName": "JBP_聚划算聚宝盆整点聚"
+        },
+        "right_buttom": {
+            "image": "http://gtms02.alicdn.com/tps/i2/T14bd2FSldXXazVAoy-187-140.jpg",
+            "url": "http://h5.m.taobao.com/channel/act/juhuasuan/m/zero-taobao-425.php",
+            "trackName": "lycj_0元抽奖"
+        }
+    },
+    "brand3": {
+        "background": {
+            "image": "http://gtms04.alicdn.com/tps/i4/T1gahMFBXbXXbfP_gr-640-304.png"
+        },
+        "c1": {
+            "image": "http://gtms02.alicdn.com/tps/i2/T1Qc9DFOFcXXXTlHTM-160-105.png",
+            "url": "http://h5.m.taobao.com/jhsm/daytime-switcher.html",
+            "trackName": "0ycj_0元抽奖"
+        },
+        "c2": {
+            "image": "http://gtms01.alicdn.com/tps/i1/T1IxaDFMRcXXXTlHTM-160-105.png",
+            "url": "http://h5.m.taobao.com/jhsm/zdj-taobao.html",
+            "trackName": "jrm_聚热卖"
+        },
+        "c3": {
+            "image": "http://gtms04.alicdn.com/tps/i4/T1RR5JFFpaXXXTlHTM-160-105.png",
+            "url": "http://h5.m.taobao.com/channel/act/juhuasuan/m/zero-taobao-425.php",
+            "trackName": "jt_聚透"
+        },
+        "c4": {
+            "image": "http://gtms03.alicdn.com/tps/i3/T1Ge9KFQlXXXXTlHTM-160-105.png",
+            "url": "http://h5.m.taobao.com/jhsm/zdj-taobao.html",
+            "trackName": "yhzx_优惠中心"
+        }
+    },
+    "category_today_data": {
+        "background": {
+            "image": "http://gtms03.alicdn.com/tps/i3/T1OYuIFRXaXXc3P_Ur-640-358.png"
+        },
+        "ct_tc1": {
+            "image": "http://gtms03.alicdn.com/tps/i3/T1B39IFOtaXXXJ3sfM-160-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:1000;&categoryName=女装",
+            "trackName": "nz_女装"
+        },
+        "ct_tc2": {
+            "image": "http://gtms04.alicdn.com/tps/i4/T1xoqCFP0cXXbYvVfR-159-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:7000;&categoryName=男装",
+            "trackName": "nz_男装"
+        },
+        "ct_tc3": {
+            "image": "http://gtms01.alicdn.com/tps/i1/T1OFyGFLtbXXbYvVfR-159-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:3000;&categoryName=鞋包",
+            "trackName": "xb_鞋包"
+        },
+        "ct_tc4": {
+            "image": "http://gtms02.alicdn.com/tps/i2/T1PEiHFQFaXXbYvVfR-159-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:4000;&categoryName=内衣",
+            "trackName": "ny_内衣"
+        },
+        "ct_bc1": {
+            "image": "http://gtms02.alicdn.com/tps/i2/T1DNSDFJRcXXXJ3sfM-160-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:42000;&categoryName=饰品",
+            "trackName": "sp_饰品"
+        },
+        "ct_bc2": {
+            "image": "http://gtms04.alicdn.com/tps/i4/T1gXKJFK4aXXbYvVfR-159-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:38000;&categoryName=运动",
+            "trackName": "yd_运动"
+        },
+        "ct_bc3": {
+            "image": "http://gtms03.alicdn.com/tps/i3/T15jqKFRxXXXbYvVfR-159-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:2000;&categoryName=美妆",
+            "trackName": "mz_美妆"
+        },
+        "ct_bc4": {
+            "image": "http://gtms01.alicdn.com/tps/i1/T1LoKJFNBXXXbYvVfR-159-143.png",
+            "url": "taobao://go/ju/today_list?optStr=frontCatId:-1;&categoryName=全部",
+            "trackName": "qb_全部"
+        }
+    }
+}
