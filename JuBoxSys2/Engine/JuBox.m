@@ -15,6 +15,15 @@
 
 @implementation JuBox
 
+- (void) dealloc
+{
+    [self.boxView removeFromSuperview]; self.boxView = NULL;
+    self.handler = NULL;
+    self.model = NULL;
+    self.dataMap = NULL;
+    [super dealloc];
+}
+
 /**
  * 装载入数据
  * @param dataMap 显示数据

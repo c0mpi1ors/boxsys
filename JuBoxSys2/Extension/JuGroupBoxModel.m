@@ -11,6 +11,15 @@
 
 @implementation JuGroupRelativeBoxModel
 
+- (void) dealloc
+{
+    self.model = NULL;
+    self.map = NULL;
+    self.parameters = NULL;
+    
+    [super dealloc];
+}
+
 @end
 
 @implementation JuGroupBoxModel

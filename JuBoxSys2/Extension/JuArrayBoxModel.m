@@ -11,6 +11,14 @@
 
 @implementation JuArrayRelativeBoxModel
 
+- (void) dealloc
+{
+    self.model = NULL;
+    self.map = NULL;
+    
+    [super dealloc];
+}
+
 @end
 
 @implementation JuArrayBoxModel

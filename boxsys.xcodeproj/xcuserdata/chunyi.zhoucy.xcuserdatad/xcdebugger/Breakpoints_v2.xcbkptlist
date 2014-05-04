@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
-            timestampString = "420862270.897095"
+            timestampString = "420868530.413802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "399"
-            endingLineNumber = "399"
+            startingLineNumber = "402"
+            endingLineNumber = "402"
             landmarkName = "+loadBox:withKey:withData:width:height:withDelegate:"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Extension/JuArrayBoxModel.m"
-            timestampString = "420863866.79229"
+            timestampString = "420869378.17984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "-loadItem:withItem:"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
-            timestampString = "420862270.897095"
+            timestampString = "420868530.413802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "325"
-            endingLineNumber = "325"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
             landmarkName = "+loadModel:"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
-            timestampString = "420862270.897095"
+            timestampString = "420868530.413802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
             landmarkName = "+loadModel:"
             landmarkType = "5">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
-            timestampString = "420862903.884687"
+            timestampString = "420868530.413802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "+clearSelf"
             landmarkType = "5">
          </BreakpointContent>
@@ -214,7 +214,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Engine/JuListBoxModel.m"
@@ -230,16 +230,78 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
-            timestampString = "420864080.125191"
+            timestampString = "420868530.413802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
             landmarkName = "-dealloc"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
+            timestampString = "420868530.413802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
+            landmarkName = "+loadModel:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[JuBoxSys2 loadModel:]"
+                  moduleName = "boxsys"
+                  urlString = "file://localhost/Users/chunyi.zhoucy/%E8%99%9A%E6%8B%9F%E5%8C%96/%E5%8A%A8%E6%80%81%E5%8C%96%E8%BF%90%E8%90%A5%E6%B4%BB%E5%8A%A8/%E5%8A%A8%E6%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E5%9D%97/Boxsys3/boxsys2/JuBoxSys2/Engine/JuBoxSys2.m"
+                  timestampString = "420866199.415612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "355"
+                  endingLineNumber = "355"
+                  offsetFromSymbolStart = "1397">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[JuBoxSys2 loadModel:]"
+                  moduleName = "boxsys"
+                  urlString = "file://localhost/Users/chunyi.zhoucy/%E8%99%9A%E6%8B%9F%E5%8C%96/%E5%8A%A8%E6%80%81%E5%8C%96%E8%BF%90%E8%90%A5%E6%B4%BB%E5%8A%A8/%E5%8A%A8%E6%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E5%9D%97/Boxsys3/boxsys2/JuBoxSys2/Engine/JuBoxSys2.m"
+                  timestampString = "420866199.416153"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "355"
+                  endingLineNumber = "355"
+                  offsetFromSymbolStart = "1636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JuBoxSys2/Engine/JuBoxSys2.m"
+            timestampString = "420868530.413802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "+loadModel:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

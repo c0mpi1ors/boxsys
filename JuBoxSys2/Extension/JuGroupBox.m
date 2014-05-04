@@ -10,7 +10,6 @@
 #import "JuGroupBox.h"
 #import "JuBoxSys2.h"
 
-
 @implementation JuGroupBox
 
 //@Override

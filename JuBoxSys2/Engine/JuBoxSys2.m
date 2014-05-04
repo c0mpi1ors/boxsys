@@ -60,17 +60,20 @@
 
 - (void) dealloc
 {
+    self.boxCache = nil;
     [self.typeModelClass removeAllObjects]; self.typeModelClass = nil;
     [self.typeBoxClass removeAllObjects]; self.typeBoxClass = nil;
-    [self.internalLock unlock]; self.internalLock = nil;
     [self.namedModel removeAllObjects]; self.namedModel = nil;
-    self.boxCache = nil;
+	[self.internalLock unlock]; self.internalLock = nil;
     
     [super dealloc];
 }
 
 + (void) clearSelf
 {
+    JuBoxSys2 *sys = [JuBoxSys2 sharedManager];
+    [sys.internalLock lock];
+    
     if (sharedJuBoxSys) {
         [sharedJuBoxSys release];
         sharedJuBoxSys = Nil;
