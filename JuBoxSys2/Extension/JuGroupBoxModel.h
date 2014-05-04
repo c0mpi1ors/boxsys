@@ -11,9 +11,9 @@
 
 @interface JuGroupRelativeBoxModel : JuListRelativeBoxModel
 
-@property(nonatomic, retain) JuBoxModel *model; // 模板
+@property(nonatomic, strong) JuBoxModel *model; // 模板
 
-@property(nonatomic, retain) NSString *map; // 映射名，到数据的映射关系
+@property(nonatomic, strong) NSString *map; // 映射名，到数据的映射关系
 
 @property(nonatomic, assign) double x; // x坐标
 
@@ -23,7 +23,7 @@
 
 @property(nonatomic, assign) double height; // 高度
 
-@property(nonatomic, retain) NSDictionary *parameters; // 设置值
+@property(nonatomic, strong) NSDictionary *parameters; // 设置值
 
 @end
 

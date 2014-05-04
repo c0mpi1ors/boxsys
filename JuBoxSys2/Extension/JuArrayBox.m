@@ -25,7 +25,7 @@
     JuArrayBoxModel *arrayModel  = (JuArrayBoxModel *)model;
     
     // 初始化布局
-    self.boxView = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, width, 1)] autorelease];
+    self.boxView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width, 1)];
     self.height = 0.0;
     
     for (JuListRelativeBoxModel *r in arrayModel.subBoxModelList) {

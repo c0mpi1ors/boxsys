@@ -20,19 +20,19 @@
 @interface JuBoxSys2()
 
 // 类型名->模型类的字典
-@property(nonatomic, retain) NSMutableDictionary *typeModelClass;
+@property(nonatomic, strong) NSMutableDictionary *typeModelClass;
 
 // 类型名->显示元素类的字典
-@property(nonatomic, retain) NSMutableDictionary *typeBoxClass;
+@property(nonatomic, strong) NSMutableDictionary *typeBoxClass;
 
 // 内部锁，防止线程间干扰
-@property (nonatomic, retain) NSLock *internalLock;
+@property (nonatomic, strong) NSLock *internalLock;
 
 // 模型库
-@property (nonatomic, retain) NSMutableDictionary *namedModel;
+@property (nonatomic, strong) NSMutableDictionary *namedModel;
 
 // 元素缓存
-@property (nonatomic, retain) JuBoxCache *boxCache;
+@property (nonatomic, strong) JuBoxCache *boxCache;
 
 // 版本号
 @property (nonatomic, assign) int version;
@@ -47,11 +47,11 @@
     self = [super init];
     if (self) {
         
-        self.typeModelClass = [[[NSMutableDictionary alloc] init] autorelease];
-        self.typeBoxClass = [[[NSMutableDictionary alloc] init] autorelease];
-        self.internalLock = [[[NSLock alloc] init] autorelease];
-        self.namedModel = [[[NSMutableDictionary alloc] init] autorelease];
-        self.boxCache = [[[JuBoxCache alloc] init] autorelease];
+        self.typeModelClass = [[NSMutableDictionary alloc] init];
+        self.typeBoxClass = [[NSMutableDictionary alloc] init];
+        self.internalLock = [[NSLock alloc] init];
+        self.namedModel = [[NSMutableDictionary alloc] init];
+        self.boxCache = [[JuBoxCache alloc] init];
         self.version = 100; // 默认版本号
     }
     
@@ -60,13 +60,11 @@
 
 - (void) dealloc
 {
-    self.boxCache = nil;
-    [self.typeModelClass removeAllObjects]; self.typeModelClass = nil;
-    [self.typeBoxClass removeAllObjects]; self.typeBoxClass = nil;
-    [self.namedModel removeAllObjects]; self.namedModel = nil;
-	[self.internalLock unlock]; self.internalLock = nil;
+    [self.typeModelClass removeAllObjects]; 
+    [self.typeBoxClass removeAllObjects]; 
+    [self.namedModel removeAllObjects]; 
+	[self.internalLock unlock]; 
     
-    [super dealloc];
 }
 
 + (void) clearSelf
@@ -75,7 +73,6 @@
     [sys.internalLock lock];
     
     if (sharedJuBoxSys) {
-        [sharedJuBoxSys release];
         sharedJuBoxSys = Nil;
     }
 }
@@ -112,7 +109,7 @@ static JuBoxSys2 *sharedJuBoxSys = nil;
 {
     JuBoxModel *boxModel = [JuBoxSys2 generateModel:type];
     if (boxModel != NULL) {
-        NSMutableDictionary *modelMap = [[[NSMutableDictionary alloc] init] autorelease];
+        NSMutableDictionary *modelMap = [[NSMutableDictionary alloc] init];
         if ([boxModel load:type withModel:modelMap]) {
             [[JuBoxSys2 sharedManager].namedModel setObject:boxModel forKey:type];
         }
@@ -153,8 +150,14 @@ static JuBoxSys2 *sharedJuBoxSys = nil;
 {
     Class clazz = [[JuBoxSys2 sharedManager].typeModelClass objectForKey:type];
     if (clazz) {
-    	JuBoxModel *model = (JuBoxModel *) class_createInstance(clazz, 0);
-    	[[model init] autorelease];
+
+    	// ARC
+        NSString *clazzName = [NSString stringWithFormat:@"%s", class_getName(clazz)];
+        JuBoxModel *model = (JuBoxModel *)[[NSClassFromString(clazzName) alloc] init];
+   
+		// NRC
+		// JuBoxModel *model = (JuBoxModel *) class_createInstance(clazz, 0);
+		// [[model init] autorelease];
     	model.type = type;
     	return model;
     } else {
@@ -172,10 +175,20 @@ static JuBoxSys2 *sharedJuBoxSys = nil;
     if (type == NULL) { return NULL; }
     
     Class clazz = [[JuBoxSys2 sharedManager].typeBoxClass objectForKey:type];
-    JuBox *box = (JuBox *) class_createInstance(clazz, 0);
-    [[box init] autorelease];
-    return box;
-    
+    if (clazz) {
+        
+        // ARC
+        NSString *clazzName = [NSString stringWithFormat:@"%s", class_getName(clazz)];
+        JuBox *box = (JuBox *) [[NSClassFromString(clazzName) alloc] init];
+     
+        // NRC
+        // JuBox *box = (JuBox *) class_createInstance(clazz, 0);
+        // [[box init] autorelease];
+        
+        return box;
+    } else {
+        return NULL;
+    }
 }
 
 /**

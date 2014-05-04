@@ -48,7 +48,7 @@
     }
     
     // 初始化布局
-    self.boxView = [[[UIView alloc] initWithFrame:CGRectMake(self.x, self.y, self.width, self.height)] autorelease];
+    self.boxView = [[UIView alloc] initWithFrame:CGRectMake(self.x, self.y, self.width, self.height)];
     
     for (JuListRelativeBoxModel *r in groupModel.subBoxModelList) {
         

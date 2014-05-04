@@ -11,13 +11,6 @@
 
 @implementation JuArrayRelativeBoxModel
 
-- (void) dealloc
-{
-    self.model = NULL;
-    self.map = NULL;
-    
-    [super dealloc];
-}
 
 @end
 
@@ -26,7 +19,7 @@
 //@Override
 - (JuListRelativeBoxModel*) loadItem:(int) index withItem:(NSDictionary *)itemMap
 {
-    JuArrayRelativeBoxModel *relative = [[[JuArrayRelativeBoxModel alloc] init] autorelease];
+    JuArrayRelativeBoxModel *relative = [[JuArrayRelativeBoxModel alloc] init];
     
     NSString *name = [JuBoxSys2 getStringFromMap:itemMap withName:@"name"];
     if (name == NULL) return NULL;

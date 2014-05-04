@@ -27,6 +27,6 @@
 @interface JuListBoxModel : JuBoxModel
 
 // 子类的列表
-@property (nonatomic, retain) NSMutableArray *subBoxModelList;
+@property (nonatomic, strong) NSMutableArray *subBoxModelList;
 
 @end

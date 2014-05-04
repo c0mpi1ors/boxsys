@@ -19,15 +19,14 @@
 {
     self = [super init];
     if (self) {
-        self.subBoxModelList = [[[NSMutableArray alloc] init]autorelease];
+        self.subBoxModelList = [[NSMutableArray alloc] init];
     }
     return self;
 }
 
 - (void) dealloc
 {
-    [self.subBoxModelList removeAllObjects]; self.subBoxModelList = NULL;
-    [super dealloc];
+    [self.subBoxModelList removeAllObjects]; 
 }
 
 // @Override

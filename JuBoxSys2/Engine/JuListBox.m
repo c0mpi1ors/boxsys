@@ -14,15 +14,14 @@
 {
     self = [super init];
     if (self) {
-        self.subBoxList = [[[NSMutableArray alloc] init]autorelease];
+        self.subBoxList = [[NSMutableArray alloc] init];
     }
     return self;
 }
 
 - (void) dealloc
 {
-    [self.subBoxList removeAllObjects]; self.subBoxList = NULL;
-    [super dealloc];
+    [self.subBoxList removeAllObjects]; 
 }
 
 @end

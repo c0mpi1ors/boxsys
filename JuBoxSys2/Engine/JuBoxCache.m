@@ -14,7 +14,7 @@
  */
 @interface JuBoxCacheItem : NSObject
 
-@property (nonatomic, retain) NSMutableDictionary *boxNameCache;
+@property (nonatomic, strong) NSMutableDictionary *boxNameCache;
 
 @end
 
@@ -24,15 +24,14 @@
 {
     self = [super init];
     if (self) {
-        self.boxNameCache = [[[NSMutableDictionary alloc] init] autorelease];
+        self.boxNameCache = [[NSMutableDictionary alloc] init];
     }
     return self;
 }
 
 - (void) dealloc
 {
-    [self.boxNameCache removeAllObjects]; self.boxNameCache = NULL;
-    [super dealloc];
+    [self.boxNameCache removeAllObjects]; 
 }
 
 /**
@@ -76,7 +75,7 @@
 
 @interface JuBoxCache()
 
-@property(nonatomic, retain) NSMutableDictionary *handlerCache;
+@property(nonatomic, strong) NSMutableDictionary *handlerCache;
 
 @end
 
@@ -86,15 +85,14 @@
 {
     self = [super init];
     if (self) {
-        self.handlerCache = [[[NSMutableDictionary alloc] init] autorelease];
+        self.handlerCache = [[NSMutableDictionary alloc] init];
     }
     return self;
 }
 
 - (void) dealloc
 {
-    [self.handlerCache removeAllObjects]; self.handlerCache = NULL;
-    [super dealloc];
+    [self.handlerCache removeAllObjects]; 
 }
 
 /**
@@ -107,7 +105,7 @@
 {
     JuBoxCacheItem *item = [self.handlerCache objectForKey:key];
     if (item == NULL) {
-        item = [[[JuBoxCacheItem alloc ] init] autorelease];
+        item = [[JuBoxCacheItem alloc ] init];
         [self.handlerCache setObject:item forKey:key];
     }
     [item set:boxName withBox:boxObj];

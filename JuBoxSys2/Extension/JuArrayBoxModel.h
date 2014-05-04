@@ -10,9 +10,9 @@
 
 @interface JuArrayRelativeBoxModel : JuListRelativeBoxModel
 
-@property(nonatomic, retain) JuBoxModel *model; // 模板
+@property(nonatomic, strong) JuBoxModel *model; // 模板
 
-@property(nonatomic, retain) NSString *map; // 映射名，到数据的映射关系
+@property(nonatomic, strong) NSString *map; // 映射名，到数据的映射关系
 
 @end
 

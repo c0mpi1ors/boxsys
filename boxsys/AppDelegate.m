@@ -55,7 +55,7 @@
 
 + (NSDictionary *) getDictionaryFromFile:(NSString *)name
 {
-    SBJsonParser *jsonParser = [[[SBJsonParser alloc] init] autorelease];
+    SBJsonParser *jsonParser = [[SBJsonParser alloc] init];
     
     NSString *sdata = [NSString stringWithContentsOfFile:[[NSBundle mainBundle]
                                                           pathForResource:name

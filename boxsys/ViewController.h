@@ -12,8 +12,8 @@
 
 @interface ViewController : UIViewController <JuBoxSysDelegate>
 
-@property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
-@property (retain, nonatomic) UIView *workview;
+@property (strong, nonatomic) UIView *workview;
 
 @end

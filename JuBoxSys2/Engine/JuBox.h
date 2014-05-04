@@ -33,16 +33,16 @@
 @property (nonatomic, assign) float height;
 
 // Box对应的处理句柄
-@property (nonatomic, retain) id<JuBoxSysDelegate> handler;
+@property (nonatomic, strong) id<JuBoxSysDelegate> handler;
 
 // Box对应的Model
-@property (nonatomic, retain) JuBoxModel *model;
+@property (nonatomic, strong) JuBoxModel *model;
 
 // Box对应的数据
-@property (nonatomic, retain) NSDictionary *dataMap;
+@property (nonatomic, strong) NSDictionary *dataMap;
 
 // View对象，需要子类里实现
-@property (nonatomic, retain) UIView *boxView;
+@property (nonatomic, strong) UIView *boxView;
 
 /**
  * 装载入数据

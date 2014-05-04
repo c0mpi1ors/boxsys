@@ -13,13 +13,13 @@
 @interface JuButtonBox()
 
 // 跳转用的url
-@property (nonatomic, retain) NSString *internalUrl;
+@property (nonatomic, strong) NSString *internalUrl;
 
 // 按下时的埋点ID
-@property (nonatomic, retain) NSString *trackId;
+@property (nonatomic, strong) NSString *trackId;
 
 // 按下时的埋点值
-@property (nonatomic, retain) NSString *trackName;
+@property (nonatomic, strong) NSString *trackName;
 
 @end
 

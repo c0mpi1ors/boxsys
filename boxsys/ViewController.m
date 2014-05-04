@@ -80,7 +80,7 @@ static int dataStatus = 0;
 - (UIView *) getContainer
 {
     if(!self.workview) {
-        self.workview = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)] autorelease];
+        self.workview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
         [self.scrollView addSubview:self.workview];
     }
     return self.workview;

@@ -12,14 +12,6 @@
 
 @implementation JuBoxModel
 
-- (void) dealloc
-{
-    self.name = NULL;
-    self.map = NULL;
-    self.type = NULL;
-
-    [super dealloc];
-}
 
 /**
  * 装载模型信息

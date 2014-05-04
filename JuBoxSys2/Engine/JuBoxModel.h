@@ -25,13 +25,13 @@ typedef enum {
 @interface JuBoxModel : NSObject
 
 // Box的名字，唯一区分一个BoxModel
-@property (nonatomic, retain) NSString *name;
+@property (nonatomic, strong) NSString *name;
 
 // Box的类型
-@property (nonatomic, retain) NSString *type;
+@property (nonatomic, strong) NSString *type;
 
 // Box对应数据里的相对位置
-@property (nonatomic, retain) NSString *map;
+@property (nonatomic, strong) NSString *map;
 
 // Box的宽度
 @property (nonatomic, assign) float width;
