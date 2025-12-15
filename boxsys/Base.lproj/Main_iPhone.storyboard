@@ -26,7 +26,7 @@
         <!--Full View Controller - 全页面-->
         <scene sceneID="WTU-3J-4nT">
             <objects>
-                <viewController id="ZgN-Po-UvH" customClass="FullViewController" sceneMemberID="viewController">
+                <viewController id="ZgN-Po-UvH" customClass="FullViewController" customModule="boxsys" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6VU-Wy-d9s"/>
                         <viewControllerLayoutGuide type="bottom" id="94p-TR-wmc"/>
@@ -45,7 +45,7 @@
         <!--View Controller - 运营位-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="boxsys" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wLY-S3-a3S"/>
                         <viewControllerLayoutGuide type="bottom" id="yEQ-FG-dq5"/>

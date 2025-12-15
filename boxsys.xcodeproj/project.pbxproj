@@ -3,402 +3,103 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC668AE0190E566E00EE80FE /* JuBoxSys2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668ADF190E566E00EE80FE /* JuBoxSys2.m */; };
-		BC668AE3190E5B6100EE80FE /* JuBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AE2190E5B6100EE80FE /* JuBoxModel.m */; };
-		BC668AE6190F359F00EE80FE /* JuBoxCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668AE4190F359F00EE80FE /* JuBoxCache.h */; };
-		BC668AE7190F359F00EE80FE /* JuBoxCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AE5190F359F00EE80FE /* JuBoxCache.m */; };
-		BC668AE8190F359F00EE80FE /* JuBoxCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AE5190F359F00EE80FE /* JuBoxCache.m */; };
-		BC668AEB190F865800EE80FE /* JuBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668AE9190F865800EE80FE /* JuBox.h */; };
-		BC668AEC190F865800EE80FE /* JuBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AEA190F865800EE80FE /* JuBox.m */; };
-		BC668AED190F865800EE80FE /* JuBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AEA190F865800EE80FE /* JuBox.m */; };
-		BC668AF0190F935B00EE80FE /* JuBoxVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668AEE190F935B00EE80FE /* JuBoxVersion.h */; };
-		BC668AF1190F935B00EE80FE /* JuBoxVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AEF190F935B00EE80FE /* JuBoxVersion.m */; };
-		BC668AF2190F935B00EE80FE /* JuBoxVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AEF190F935B00EE80FE /* JuBoxVersion.m */; };
-		BC668AF4190FA22700EE80FE /* JuBoxSysDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668AF3190FA22700EE80FE /* JuBoxSysDelegate.h */; };
-		BC668AF8190FACDF00EE80FE /* JuButtonBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668AF6190FACDF00EE80FE /* JuButtonBox.h */; };
-		BC668AF9190FACDF00EE80FE /* JuButtonBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AF7190FACDF00EE80FE /* JuButtonBox.m */; };
-		BC668AFA190FACDF00EE80FE /* JuButtonBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AF7190FACDF00EE80FE /* JuButtonBox.m */; };
-		BC668AFD190FAF6700EE80FE /* JuButtonBoxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668AFB190FAF6700EE80FE /* JuButtonBoxModel.h */; };
-		BC668AFE190FAF6700EE80FE /* JuButtonBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AFC190FAF6700EE80FE /* JuButtonBoxModel.m */; };
-		BC668AFF190FAF6700EE80FE /* JuButtonBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668AFC190FAF6700EE80FE /* JuButtonBoxModel.m */; };
-		BC668B021910844A00EE80FE /* JuListBoxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668B001910844A00EE80FE /* JuListBoxModel.h */; };
-		BC668B031910844A00EE80FE /* JuListBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B011910844A00EE80FE /* JuListBoxModel.m */; };
-		BC668B041910844A00EE80FE /* JuListBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B011910844A00EE80FE /* JuListBoxModel.m */; };
-		BC668B0719108B2A00EE80FE /* JuGroupBoxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668B0519108B2A00EE80FE /* JuGroupBoxModel.h */; };
-		BC668B0819108B2A00EE80FE /* JuGroupBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B0619108B2A00EE80FE /* JuGroupBoxModel.m */; };
-		BC668B0919108B2A00EE80FE /* JuGroupBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B0619108B2A00EE80FE /* JuGroupBoxModel.m */; };
-		BC668B0F1910D95D00EE80FE /* JuGroupBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668B0D1910D95D00EE80FE /* JuGroupBox.h */; };
-		BC668B101910D95D00EE80FE /* JuGroupBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B0E1910D95D00EE80FE /* JuGroupBox.m */; };
-		BC668B111910D95D00EE80FE /* JuGroupBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B0E1910D95D00EE80FE /* JuGroupBox.m */; };
-		BC668B141910E31200EE80FE /* JuArrayBoxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668B121910E31200EE80FE /* JuArrayBoxModel.h */; };
-		BC668B151910E31200EE80FE /* JuArrayBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B131910E31200EE80FE /* JuArrayBoxModel.m */; };
-		BC668B161910E31200EE80FE /* JuArrayBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B131910E31200EE80FE /* JuArrayBoxModel.m */; };
-		BC668B191910E84D00EE80FE /* JuArrayBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668B171910E84D00EE80FE /* JuArrayBox.h */; };
-		BC668B1A1910E84D00EE80FE /* JuArrayBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B181910E84D00EE80FE /* JuArrayBox.m */; };
-		BC668B1B1910E84D00EE80FE /* JuArrayBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B181910E84D00EE80FE /* JuArrayBox.m */; };
-		BC668B1D1910F1D100EE80FE /* JuModel.json in Resources */ = {isa = PBXBuildFile; fileRef = BC668B1C1910F1D100EE80FE /* JuModel.json */; };
-		BC668B1E1910F1D100EE80FE /* JuModel.json in Resources */ = {isa = PBXBuildFile; fileRef = BC668B1C1910F1D100EE80FE /* JuModel.json */; };
-		BC668B201910F20200EE80FE /* JuToday.json in Resources */ = {isa = PBXBuildFile; fileRef = BC668B1F1910F20200EE80FE /* JuToday.json */; };
-		BC668B211910F20200EE80FE /* JuToday.json in Resources */ = {isa = PBXBuildFile; fileRef = BC668B1F1910F20200EE80FE /* JuToday.json */; };
-		BC668B241915D2E800EE80FE /* JuListBox.h in Headers */ = {isa = PBXBuildFile; fileRef = BC668B221915D2E800EE80FE /* JuListBox.h */; };
-		BC668B251915D2E800EE80FE /* JuListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B231915D2E800EE80FE /* JuListBox.m */; };
-		BC668B261915D2E800EE80FE /* JuListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BC668B231915D2E800EE80FE /* JuListBox.m */; };
-		BC70F74818C86BA700EFB55E /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC70F74718C86BA700EFB55E /* FullViewController.m */; };
-		BC70F74E18C877D700EFB55E /* DataFullViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = BC70F74D18C877D700EFB55E /* DataFullViewController.json */; };
-		BC70F75018C8791300EFB55E /* ModelFullViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = BC70F74F18C8791300EFB55E /* ModelFullViewController.json */; };
-		BC70F75318C9597400EFB55E /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC70F75218C9597400EFB55E /* test.jpg */; };
-		BC827AC5187B99FE00579CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC4187B99FE00579CB2 /* Foundation.framework */; };
-		BC827AC7187B99FE00579CB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC6187B99FE00579CB2 /* CoreGraphics.framework */; };
-		BC827AC9187B99FE00579CB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC8187B99FE00579CB2 /* UIKit.framework */; };
-		BC827ACF187B99FE00579CB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC827ACD187B99FE00579CB2 /* InfoPlist.strings */; };
-		BC827AD1187B99FE00579CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC827AD0187B99FE00579CB2 /* main.m */; };
-		BC827AD5187B99FE00579CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC827AD4187B99FE00579CB2 /* AppDelegate.m */; };
-		BC827AD8187B99FE00579CB2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC827AD6187B99FE00579CB2 /* Main_iPhone.storyboard */; };
-		BC827ADB187B99FE00579CB2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC827AD9187B99FE00579CB2 /* Main_iPad.storyboard */; };
-		BC827ADE187B99FE00579CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC827ADD187B99FE00579CB2 /* ViewController.m */; };
-		BC827AE0187B99FE00579CB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC827ADF187B99FE00579CB2 /* Images.xcassets */; };
-		BC827AE7187B99FE00579CB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AE6187B99FE00579CB2 /* XCTest.framework */; };
-		BC827AE8187B99FE00579CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC4187B99FE00579CB2 /* Foundation.framework */; };
-		BC827AE9187B99FE00579CB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC8187B99FE00579CB2 /* UIKit.framework */; };
-		BC827AF1187B99FE00579CB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC827AEF187B99FE00579CB2 /* InfoPlist.strings */; };
-		BC827AF3187B99FE00579CB2 /* boxsysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC827AF2187B99FE00579CB2 /* boxsysTests.m */; };
-		BC827B24187C1F7B00579CB2 /* libsbjson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827B23187C1F7B00579CB2 /* libsbjson-ios.a */; };
-		BC827B4D187CF13A00579CB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC827B4B187CF13A00579CB2 /* InfoPlist.strings */; };
-		BC827B5E187D011800579CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC4187B99FE00579CB2 /* Foundation.framework */; };
-		BC827B5F187D011A00579CB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC6187B99FE00579CB2 /* CoreGraphics.framework */; };
-		BC827B60187D011D00579CB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC827AC8187B99FE00579CB2 /* UIKit.framework */; };
+		A1000001187B99FE00579CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002187B99FE00579CB2 /* AppDelegate.swift */; };
+		A1000003187B99FE00579CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004187B99FE00579CB2 /* ViewController.swift */; };
+		A1000005187B99FE00579CB2 /* JuBoxSys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006187B99FE00579CB2 /* JuBoxSys.swift */; };
+		A1000007187B99FE00579CB2 /* JuBoxExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008187B99FE00579CB2 /* JuBoxExtensions.swift */; };
+		A1000030187B99FE00579CB2 /* FullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000031187B99FE00579CB2 /* FullViewController.swift */; };
+		A1000009187B99FE00579CB2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100000A187B99FE00579CB2 /* Main_iPhone.storyboard */; };
+		A100000B187B99FE00579CB2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100000C187B99FE00579CB2 /* Main_iPad.storyboard */; };
+		A100000D187B99FE00579CB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100000E187B99FE00579CB2 /* Images.xcassets */; };
+		A100000F187B99FE00579CB2 /* JuModel.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000010187B99FE00579CB2 /* JuModel.json */; };
+		A1000011187B99FE00579CB2 /* JuToday.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000012187B99FE00579CB2 /* JuToday.json */; };
+		A1000013187B99FE00579CB2 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1000014187B99FE00579CB2 /* test.jpg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BC827AEA187B99FE00579CB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC827AB9187B99FE00579CB2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC827AC0187B99FE00579CB2;
-			remoteInfo = boxsys;
-		};
-		BC827B38187C23B800579CB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC827B31187C23B800579CB2 /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BC12323D1391D5CC00131607;
-			remoteInfo = SBJson;
-		};
-		BC827B3A187C23B800579CB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC827B31187C23B800579CB2 /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BC1232521391D5CC00131607;
-			remoteInfo = SBJsonTests;
-		};
-		BC827B3C187C23B800579CB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC827B31187C23B800579CB2 /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCC2626913920FC7003D9994;
-			remoteInfo = "sbjson-ios";
-		};
-		BC827B3E187C23B800579CB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC827B31187C23B800579CB2 /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCC2627313920FC7003D9994;
-			remoteInfo = "sbjson-iosTests";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BC668ADE190E566E00EE80FE /* JuBoxSys2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuBoxSys2.h; path = JuBoxSys2/Engine/JuBoxSys2.h; sourceTree = "<group>"; };
-		BC668ADF190E566E00EE80FE /* JuBoxSys2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuBoxSys2.m; path = JuBoxSys2/Engine/JuBoxSys2.m; sourceTree = "<group>"; };
-		BC668AE1190E5B6100EE80FE /* JuBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuBoxModel.h; path = JuBoxSys2/Engine/JuBoxModel.h; sourceTree = "<group>"; };
-		BC668AE2190E5B6100EE80FE /* JuBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuBoxModel.m; path = JuBoxSys2/Engine/JuBoxModel.m; sourceTree = "<group>"; };
-		BC668AE4190F359F00EE80FE /* JuBoxCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuBoxCache.h; path = JuBoxSys2/Engine/JuBoxCache.h; sourceTree = "<group>"; };
-		BC668AE5190F359F00EE80FE /* JuBoxCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuBoxCache.m; path = JuBoxSys2/Engine/JuBoxCache.m; sourceTree = "<group>"; };
-		BC668AE9190F865800EE80FE /* JuBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuBox.h; path = JuBoxSys2/Engine/JuBox.h; sourceTree = "<group>"; };
-		BC668AEA190F865800EE80FE /* JuBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuBox.m; path = JuBoxSys2/Engine/JuBox.m; sourceTree = "<group>"; };
-		BC668AEE190F935B00EE80FE /* JuBoxVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuBoxVersion.h; path = JuBoxSys2/Engine/JuBoxVersion.h; sourceTree = "<group>"; };
-		BC668AEF190F935B00EE80FE /* JuBoxVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuBoxVersion.m; path = JuBoxSys2/Engine/JuBoxVersion.m; sourceTree = "<group>"; };
-		BC668AF3190FA22700EE80FE /* JuBoxSysDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuBoxSysDelegate.h; path = JuBoxSys2/Engine/JuBoxSysDelegate.h; sourceTree = "<group>"; };
-		BC668AF6190FACDF00EE80FE /* JuButtonBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuButtonBox.h; path = JuBoxSys2/Extension/JuButtonBox.h; sourceTree = "<group>"; };
-		BC668AF7190FACDF00EE80FE /* JuButtonBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuButtonBox.m; path = JuBoxSys2/Extension/JuButtonBox.m; sourceTree = "<group>"; };
-		BC668AFB190FAF6700EE80FE /* JuButtonBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuButtonBoxModel.h; path = JuBoxSys2/Extension/JuButtonBoxModel.h; sourceTree = "<group>"; };
-		BC668AFC190FAF6700EE80FE /* JuButtonBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuButtonBoxModel.m; path = JuBoxSys2/Extension/JuButtonBoxModel.m; sourceTree = "<group>"; };
-		BC668B001910844A00EE80FE /* JuListBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuListBoxModel.h; path = JuBoxSys2/Engine/JuListBoxModel.h; sourceTree = "<group>"; };
-		BC668B011910844A00EE80FE /* JuListBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuListBoxModel.m; path = JuBoxSys2/Engine/JuListBoxModel.m; sourceTree = "<group>"; };
-		BC668B0519108B2A00EE80FE /* JuGroupBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuGroupBoxModel.h; path = JuBoxSys2/Extension/JuGroupBoxModel.h; sourceTree = "<group>"; };
-		BC668B0619108B2A00EE80FE /* JuGroupBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuGroupBoxModel.m; path = JuBoxSys2/Extension/JuGroupBoxModel.m; sourceTree = "<group>"; };
-		BC668B0D1910D95D00EE80FE /* JuGroupBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuGroupBox.h; path = JuBoxSys2/Extension/JuGroupBox.h; sourceTree = "<group>"; };
-		BC668B0E1910D95D00EE80FE /* JuGroupBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuGroupBox.m; path = JuBoxSys2/Extension/JuGroupBox.m; sourceTree = "<group>"; };
-		BC668B121910E31200EE80FE /* JuArrayBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuArrayBoxModel.h; path = JuBoxSys2/Extension/JuArrayBoxModel.h; sourceTree = "<group>"; };
-		BC668B131910E31200EE80FE /* JuArrayBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuArrayBoxModel.m; path = JuBoxSys2/Extension/JuArrayBoxModel.m; sourceTree = "<group>"; };
-		BC668B171910E84D00EE80FE /* JuArrayBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuArrayBox.h; path = JuBoxSys2/Extension/JuArrayBox.h; sourceTree = "<group>"; };
-		BC668B181910E84D00EE80FE /* JuArrayBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuArrayBox.m; path = JuBoxSys2/Extension/JuArrayBox.m; sourceTree = "<group>"; };
-		BC668B1C1910F1D100EE80FE /* JuModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JuModel.json; sourceTree = "<group>"; };
-		BC668B1F1910F20200EE80FE /* JuToday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JuToday.json; sourceTree = "<group>"; };
-		BC668B221915D2E800EE80FE /* JuListBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuListBox.h; path = JuBoxSys2/Engine/JuListBox.h; sourceTree = "<group>"; };
-		BC668B231915D2E800EE80FE /* JuListBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuListBox.m; path = JuBoxSys2/Engine/JuListBox.m; sourceTree = "<group>"; };
-		BC70F74618C86BA700EFB55E /* FullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullViewController.h; sourceTree = "<group>"; };
-		BC70F74718C86BA700EFB55E /* FullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullViewController.m; sourceTree = "<group>"; };
-		BC70F74D18C877D700EFB55E /* DataFullViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataFullViewController.json; sourceTree = "<group>"; };
-		BC70F74F18C8791300EFB55E /* ModelFullViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ModelFullViewController.json; sourceTree = "<group>"; };
-		BC70F75218C9597400EFB55E /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
-		BC827AC1187B99FE00579CB2 /* boxsys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boxsys.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC827AC4187B99FE00579CB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BC827AC6187B99FE00579CB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BC827AC8187B99FE00579CB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BC827ACC187B99FE00579CB2 /* boxsys-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boxsys-Info.plist"; sourceTree = "<group>"; };
-		BC827ACE187B99FE00579CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BC827AD0187B99FE00579CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC827AD2187B99FE00579CB2 /* boxsys-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "boxsys-Prefix.pch"; sourceTree = "<group>"; };
-		BC827AD3187B99FE00579CB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BC827AD4187B99FE00579CB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC827AD7187B99FE00579CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		BC827ADA187B99FE00579CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		BC827ADC187B99FE00579CB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC827ADD187B99FE00579CB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC827ADF187B99FE00579CB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BC827AE5187B99FE00579CB2 /* boxsysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boxsysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC827AE6187B99FE00579CB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BC827AEE187B99FE00579CB2 /* boxsysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boxsysTests-Info.plist"; sourceTree = "<group>"; };
-		BC827AF0187B99FE00579CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BC827AF2187B99FE00579CB2 /* boxsysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boxsysTests.m; sourceTree = "<group>"; };
-		BC827B23187C1F7B00579CB2 /* libsbjson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsbjson-ios.a"; path = "Build/Products/Debug-iphoneos/libsbjson-ios.a"; sourceTree = "<group>"; };
-		BC827B31187C23B800579CB2 /* SBJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SBJson.xcodeproj; path = "json-framework-3.2.0/SBJson.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		BC827B46187CF13A00579CB2 /* JuBoxSys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = JuBoxSys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC827B4A187CF13A00579CB2 /* JuBoxSys-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JuBoxSys-Info.plist"; sourceTree = "<group>"; };
-		BC827B4C187CF13A00579CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BC827B4E187CF13A00579CB2 /* JuBoxSys-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuBoxSys-Prefix.pch"; sourceTree = "<group>"; };
+		A1000002187B99FE00579CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1000004187B99FE00579CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1000031187B99FE00579CB2 /* FullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullViewController.swift; sourceTree = "<group>"; };
+		A1000006187B99FE00579CB2 /* JuBoxSys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuBoxSys.swift; sourceTree = "<group>"; };
+		A1000008187B99FE00579CB2 /* JuBoxExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuBoxExtensions.swift; sourceTree = "<group>"; };
+		A100000A187B99FE00579CB2 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A100000C187B99FE00579CB2 /* Main_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A100000E187B99FE00579CB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1000010187B99FE00579CB2 /* JuModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JuModel.json; sourceTree = "<group>"; };
+		A1000012187B99FE00579CB2 /* JuToday.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JuToday.json; sourceTree = "<group>"; };
+		A1000014187B99FE00579CB2 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		A1000015187B99FE00579CB2 /* boxsys-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boxsys-Info.plist"; sourceTree = "<group>"; };
+		A1000020187B99FE00579CB2 /* boxsys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boxsys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC827ABE187B99FE00579CB2 /* Frameworks */ = {
+		A100001D187B99FE00579CB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC827B24187C1F7B00579CB2 /* libsbjson-ios.a in Frameworks */,
-				BC827AC7187B99FE00579CB2 /* CoreGraphics.framework in Frameworks */,
-				BC827AC9187B99FE00579CB2 /* UIKit.framework in Frameworks */,
-				BC827AC5187B99FE00579CB2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC827AE2187B99FE00579CB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC827AE7187B99FE00579CB2 /* XCTest.framework in Frameworks */,
-				BC827AE9187B99FE00579CB2 /* UIKit.framework in Frameworks */,
-				BC827AE8187B99FE00579CB2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC827B41187CF13A00579CB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC827B60187D011D00579CB2 /* UIKit.framework in Frameworks */,
-				BC827B5E187D011800579CB2 /* Foundation.framework in Frameworks */,
-				BC827B5F187D011A00579CB2 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC668AD8190E560A00EE80FE /* JuBoxSys2 */ = {
+		A1000016187B99FE00579CB2 = {
 			isa = PBXGroup;
 			children = (
-				BC668AF5190FACA600EE80FE /* Extension */,
-				BC668ADD190E562200EE80FE /* Engine */,
-			);
-			name = JuBoxSys2;
-			sourceTree = "<group>";
-		};
-		BC668ADD190E562200EE80FE /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				BC668ADE190E566E00EE80FE /* JuBoxSys2.h */,
-				BC668ADF190E566E00EE80FE /* JuBoxSys2.m */,
-				BC668AE1190E5B6100EE80FE /* JuBoxModel.h */,
-				BC668AE2190E5B6100EE80FE /* JuBoxModel.m */,
-				BC668AE4190F359F00EE80FE /* JuBoxCache.h */,
-				BC668AE5190F359F00EE80FE /* JuBoxCache.m */,
-				BC668AE9190F865800EE80FE /* JuBox.h */,
-				BC668AEA190F865800EE80FE /* JuBox.m */,
-				BC668AEE190F935B00EE80FE /* JuBoxVersion.h */,
-				BC668AEF190F935B00EE80FE /* JuBoxVersion.m */,
-				BC668AF3190FA22700EE80FE /* JuBoxSysDelegate.h */,
-				BC668B001910844A00EE80FE /* JuListBoxModel.h */,
-				BC668B011910844A00EE80FE /* JuListBoxModel.m */,
-				BC668B221915D2E800EE80FE /* JuListBox.h */,
-				BC668B231915D2E800EE80FE /* JuListBox.m */,
-			);
-			name = Engine;
-			sourceTree = "<group>";
-		};
-		BC668AF5190FACA600EE80FE /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				BC668AF6190FACDF00EE80FE /* JuButtonBox.h */,
-				BC668AF7190FACDF00EE80FE /* JuButtonBox.m */,
-				BC668AFB190FAF6700EE80FE /* JuButtonBoxModel.h */,
-				BC668AFC190FAF6700EE80FE /* JuButtonBoxModel.m */,
-				BC668B0519108B2A00EE80FE /* JuGroupBoxModel.h */,
-				BC668B0619108B2A00EE80FE /* JuGroupBoxModel.m */,
-				BC668B0D1910D95D00EE80FE /* JuGroupBox.h */,
-				BC668B0E1910D95D00EE80FE /* JuGroupBox.m */,
-				BC668B121910E31200EE80FE /* JuArrayBoxModel.h */,
-				BC668B131910E31200EE80FE /* JuArrayBoxModel.m */,
-				BC668B171910E84D00EE80FE /* JuArrayBox.h */,
-				BC668B181910E84D00EE80FE /* JuArrayBox.m */,
-			);
-			name = Extension;
-			sourceTree = "<group>";
-		};
-		BC827AB8187B99FE00579CB2 = {
-			isa = PBXGroup;
-			children = (
-				BC668AD8190E560A00EE80FE /* JuBoxSys2 */,
-				BC827ACA187B99FE00579CB2 /* boxsys */,
-				BC827AEC187B99FE00579CB2 /* boxsysTests */,
-				BC827AC3187B99FE00579CB2 /* Frameworks */,
-				BC827AC2187B99FE00579CB2 /* Products */,
+				A1000021187B99FE00579CB2 /* boxsys */,
+				A1000022187B99FE00579CB2 /* JuBoxSys2 */,
+				A100001F187B99FE00579CB2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC827AC2187B99FE00579CB2 /* Products */ = {
+		A100001F187B99FE00579CB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC827AC1187B99FE00579CB2 /* boxsys.app */,
-				BC827AE5187B99FE00579CB2 /* boxsysTests.xctest */,
-				BC827B46187CF13A00579CB2 /* JuBoxSys.framework */,
+				A1000020187B99FE00579CB2 /* boxsys.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC827AC3187B99FE00579CB2 /* Frameworks */ = {
+		A1000021187B99FE00579CB2 /* boxsys */ = {
 			isa = PBXGroup;
 			children = (
-				BC827B23187C1F7B00579CB2 /* libsbjson-ios.a */,
-				BC827AC4187B99FE00579CB2 /* Foundation.framework */,
-				BC827AC6187B99FE00579CB2 /* CoreGraphics.framework */,
-				BC827AC8187B99FE00579CB2 /* UIKit.framework */,
-				BC827AE6187B99FE00579CB2 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC827ACA187B99FE00579CB2 /* boxsys */ = {
-			isa = PBXGroup;
-			children = (
-				BC70F75218C9597400EFB55E /* test.jpg */,
-				BC827B31187C23B800579CB2 /* SBJson.xcodeproj */,
-				BC827AD3187B99FE00579CB2 /* AppDelegate.h */,
-				BC827AD4187B99FE00579CB2 /* AppDelegate.m */,
-				BC827AD6187B99FE00579CB2 /* Main_iPhone.storyboard */,
-				BC827AD9187B99FE00579CB2 /* Main_iPad.storyboard */,
-				BC827ADC187B99FE00579CB2 /* ViewController.h */,
-				BC827ADD187B99FE00579CB2 /* ViewController.m */,
-				BC827ADF187B99FE00579CB2 /* Images.xcassets */,
-				BC827ACB187B99FE00579CB2 /* Supporting Files */,
-				BC70F74618C86BA700EFB55E /* FullViewController.h */,
-				BC70F74718C86BA700EFB55E /* FullViewController.m */,
-				BC70F74D18C877D700EFB55E /* DataFullViewController.json */,
-				BC70F74F18C8791300EFB55E /* ModelFullViewController.json */,
-				BC827B49187CF13A00579CB2 /* Supporting Files */,
-				BC668B1C1910F1D100EE80FE /* JuModel.json */,
-				BC668B1F1910F20200EE80FE /* JuToday.json */,
+				A1000002187B99FE00579CB2 /* AppDelegate.swift */,
+				A1000004187B99FE00579CB2 /* ViewController.swift */,
+				A1000031187B99FE00579CB2 /* FullViewController.swift */,
+				A100000A187B99FE00579CB2 /* Main_iPhone.storyboard */,
+				A100000C187B99FE00579CB2 /* Main_iPad.storyboard */,
+				A100000E187B99FE00579CB2 /* Images.xcassets */,
+				A1000010187B99FE00579CB2 /* JuModel.json */,
+				A1000012187B99FE00579CB2 /* JuToday.json */,
+				A1000014187B99FE00579CB2 /* test.jpg */,
+				A1000015187B99FE00579CB2 /* boxsys-Info.plist */,
 			);
 			path = boxsys;
 			sourceTree = "<group>";
 		};
-		BC827ACB187B99FE00579CB2 /* Supporting Files */ = {
+		A1000022187B99FE00579CB2 /* JuBoxSys2 */ = {
 			isa = PBXGroup;
 			children = (
-				BC827ACC187B99FE00579CB2 /* boxsys-Info.plist */,
-				BC827ACD187B99FE00579CB2 /* InfoPlist.strings */,
-				BC827AD0187B99FE00579CB2 /* main.m */,
-				BC827AD2187B99FE00579CB2 /* boxsys-Prefix.pch */,
+				A1000006187B99FE00579CB2 /* JuBoxSys.swift */,
+				A1000008187B99FE00579CB2 /* JuBoxExtensions.swift */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BC827AEC187B99FE00579CB2 /* boxsysTests */ = {
-			isa = PBXGroup;
-			children = (
-				BC827AF2187B99FE00579CB2 /* boxsysTests.m */,
-				BC827AED187B99FE00579CB2 /* Supporting Files */,
-			);
-			path = boxsysTests;
-			sourceTree = "<group>";
-		};
-		BC827AED187B99FE00579CB2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BC827AEE187B99FE00579CB2 /* boxsysTests-Info.plist */,
-				BC827AEF187B99FE00579CB2 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BC827B32187C23B800579CB2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BC827B39187C23B800579CB2 /* SBJson.framework */,
-				BC827B3B187C23B800579CB2 /* SBJsonTests.octest */,
-				BC827B3D187C23B800579CB2 /* libsbjson-ios.a */,
-				BC827B3F187C23B800579CB2 /* sbjson-iosTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC827B49187CF13A00579CB2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BC827B4A187CF13A00579CB2 /* JuBoxSys-Info.plist */,
-				BC827B4B187CF13A00579CB2 /* InfoPlist.strings */,
-				BC827B4E187CF13A00579CB2 /* JuBoxSys-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			path = ../JuBoxSys2;
+			path = JuBoxSys2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		BC827B42187CF13A00579CB2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC668AF8190FACDF00EE80FE /* JuButtonBox.h in Headers */,
-				BC668B241915D2E800EE80FE /* JuListBox.h in Headers */,
-				BC668AFD190FAF6700EE80FE /* JuButtonBoxModel.h in Headers */,
-				BC668AE6190F359F00EE80FE /* JuBoxCache.h in Headers */,
-				BC668B191910E84D00EE80FE /* JuArrayBox.h in Headers */,
-				BC668B021910844A00EE80FE /* JuListBoxModel.h in Headers */,
-				BC668AF0190F935B00EE80FE /* JuBoxVersion.h in Headers */,
-				BC668B0719108B2A00EE80FE /* JuGroupBoxModel.h in Headers */,
-				BC668AF4190FA22700EE80FE /* JuBoxSysDelegate.h in Headers */,
-				BC668B0F1910D95D00EE80FE /* JuGroupBox.h in Headers */,
-				BC668AEB190F865800EE80FE /* JuBox.h in Headers */,
-				BC668B141910E31200EE80FE /* JuArrayBoxModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		BC827AC0187B99FE00579CB2 /* boxsys */ = {
+		A100001E187B99FE00579CB2 /* boxsys */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC827AF6187B99FE00579CB2 /* Build configuration list for PBXNativeTarget "boxsys" */;
+			buildConfigurationList = A1000023187B99FE00579CB2 /* Build configuration list for PBXNativeTarget "boxsys" */;
 			buildPhases = (
-				BC827ABD187B99FE00579CB2 /* Sources */,
-				BC827ABE187B99FE00579CB2 /* Frameworks */,
-				BC827ABF187B99FE00579CB2 /* Resources */,
+				A100001B187B99FE00579CB2 /* Sources */,
+				A100001C187B99FE00579CB2 /* Resources */,
+				A100001D187B99FE00579CB2 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -406,500 +107,270 @@
 			);
 			name = boxsys;
 			productName = boxsys;
-			productReference = BC827AC1187B99FE00579CB2 /* boxsys.app */;
+			productReference = A1000020187B99FE00579CB2 /* boxsys.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BC827AE4187B99FE00579CB2 /* boxsysTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC827AF9187B99FE00579CB2 /* Build configuration list for PBXNativeTarget "boxsysTests" */;
-			buildPhases = (
-				BC827AE1187B99FE00579CB2 /* Sources */,
-				BC827AE2187B99FE00579CB2 /* Frameworks */,
-				BC827AE3187B99FE00579CB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC827AEB187B99FE00579CB2 /* PBXTargetDependency */,
-			);
-			name = boxsysTests;
-			productName = boxsysTests;
-			productReference = BC827AE5187B99FE00579CB2 /* boxsysTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BC827B45187CF13A00579CB2 /* JuBoxSys */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC827B52187CF13A00579CB2 /* Build configuration list for PBXNativeTarget "JuBoxSys" */;
-			buildPhases = (
-				BC827B40187CF13A00579CB2 /* Sources */,
-				BC827B41187CF13A00579CB2 /* Frameworks */,
-				BC827B42187CF13A00579CB2 /* Headers */,
-				BC827B43187CF13A00579CB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JuBoxSys;
-			productName = JuBoxSys;
-			productReference = BC827B46187CF13A00579CB2 /* JuBoxSys.framework */;
-			productType = "com.apple.product-type.framework.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC827AB9187B99FE00579CB2 /* Project object */ = {
+		A1000017187B99FE00579CB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = chunyi.zhoucy;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					BC827AE4187B99FE00579CB2 = {
-						TestTargetID = BC827AC0187B99FE00579CB2;
+					A100001E187B99FE00579CB2 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
-			buildConfigurationList = BC827ABC187B99FE00579CB2 /* Build configuration list for PBXProject "boxsys" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = A100001A187B99FE00579CB2 /* Build configuration list for PBXProject "boxsys" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BC827AB8187B99FE00579CB2;
-			productRefGroup = BC827AC2187B99FE00579CB2 /* Products */;
+			mainGroup = A1000016187B99FE00579CB2;
+			productRefGroup = A100001F187B99FE00579CB2 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BC827B32187C23B800579CB2 /* Products */;
-					ProjectRef = BC827B31187C23B800579CB2 /* SBJson.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				BC827AC0187B99FE00579CB2 /* boxsys */,
-				BC827AE4187B99FE00579CB2 /* boxsysTests */,
-				BC827B45187CF13A00579CB2 /* JuBoxSys */,
+				A100001E187B99FE00579CB2 /* boxsys */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		BC827B39187C23B800579CB2 /* SBJson.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SBJson.framework;
-			remoteRef = BC827B38187C23B800579CB2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BC827B3B187C23B800579CB2 /* SBJsonTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SBJsonTests.octest;
-			remoteRef = BC827B3A187C23B800579CB2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BC827B3D187C23B800579CB2 /* libsbjson-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libsbjson-ios.a";
-			remoteRef = BC827B3C187C23B800579CB2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BC827B3F187C23B800579CB2 /* sbjson-iosTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "sbjson-iosTests.octest";
-			remoteRef = BC827B3E187C23B800579CB2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		BC827ABF187B99FE00579CB2 /* Resources */ = {
+		A100001C187B99FE00579CB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC70F75018C8791300EFB55E /* ModelFullViewController.json in Resources */,
-				BC70F74E18C877D700EFB55E /* DataFullViewController.json in Resources */,
-				BC70F75318C9597400EFB55E /* test.jpg in Resources */,
-				BC827ADB187B99FE00579CB2 /* Main_iPad.storyboard in Resources */,
-				BC668B1D1910F1D100EE80FE /* JuModel.json in Resources */,
-				BC827AE0187B99FE00579CB2 /* Images.xcassets in Resources */,
-				BC668B201910F20200EE80FE /* JuToday.json in Resources */,
-				BC827AD8187B99FE00579CB2 /* Main_iPhone.storyboard in Resources */,
-				BC827ACF187B99FE00579CB2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC827AE3187B99FE00579CB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC827AF1187B99FE00579CB2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC827B43187CF13A00579CB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC668B211910F20200EE80FE /* JuToday.json in Resources */,
-				BC668B1E1910F1D100EE80FE /* JuModel.json in Resources */,
-				BC827B4D187CF13A00579CB2 /* InfoPlist.strings in Resources */,
+				A1000009187B99FE00579CB2 /* Main_iPhone.storyboard in Resources */,
+				A100000B187B99FE00579CB2 /* Main_iPad.storyboard in Resources */,
+				A100000D187B99FE00579CB2 /* Images.xcassets in Resources */,
+				A100000F187B99FE00579CB2 /* JuModel.json in Resources */,
+				A1000011187B99FE00579CB2 /* JuToday.json in Resources */,
+				A1000013187B99FE00579CB2 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC827ABD187B99FE00579CB2 /* Sources */ = {
+		A100001B187B99FE00579CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC668AF9190FACDF00EE80FE /* JuButtonBox.m in Sources */,
-				BC668AE7190F359F00EE80FE /* JuBoxCache.m in Sources */,
-				BC668B101910D95D00EE80FE /* JuGroupBox.m in Sources */,
-				BC668AE0190E566E00EE80FE /* JuBoxSys2.m in Sources */,
-				BC668AF1190F935B00EE80FE /* JuBoxVersion.m in Sources */,
-				BC668B031910844A00EE80FE /* JuListBoxModel.m in Sources */,
-				BC668AEC190F865800EE80FE /* JuBox.m in Sources */,
-				BC827ADE187B99FE00579CB2 /* ViewController.m in Sources */,
-				BC668AFE190FAF6700EE80FE /* JuButtonBoxModel.m in Sources */,
-				BC668B151910E31200EE80FE /* JuArrayBoxModel.m in Sources */,
-				BC827AD5187B99FE00579CB2 /* AppDelegate.m in Sources */,
-				BC668AE3190E5B6100EE80FE /* JuBoxModel.m in Sources */,
-				BC668B251915D2E800EE80FE /* JuListBox.m in Sources */,
-				BC827AD1187B99FE00579CB2 /* main.m in Sources */,
-				BC70F74818C86BA700EFB55E /* FullViewController.m in Sources */,
-				BC668B1A1910E84D00EE80FE /* JuArrayBox.m in Sources */,
-				BC668B0819108B2A00EE80FE /* JuGroupBoxModel.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC827AE1187B99FE00579CB2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC827AF3187B99FE00579CB2 /* boxsysTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC827B40187CF13A00579CB2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC668AFA190FACDF00EE80FE /* JuButtonBox.m in Sources */,
-				BC668AED190F865800EE80FE /* JuBox.m in Sources */,
-				BC668AE8190F359F00EE80FE /* JuBoxCache.m in Sources */,
-				BC668B161910E31200EE80FE /* JuArrayBoxModel.m in Sources */,
-				BC668B1B1910E84D00EE80FE /* JuArrayBox.m in Sources */,
-				BC668B261915D2E800EE80FE /* JuListBox.m in Sources */,
-				BC668AFF190FAF6700EE80FE /* JuButtonBoxModel.m in Sources */,
-				BC668B111910D95D00EE80FE /* JuGroupBox.m in Sources */,
-				BC668B041910844A00EE80FE /* JuListBoxModel.m in Sources */,
-				BC668AF2190F935B00EE80FE /* JuBoxVersion.m in Sources */,
-				BC668B0919108B2A00EE80FE /* JuGroupBoxModel.m in Sources */,
+				A1000001187B99FE00579CB2 /* AppDelegate.swift in Sources */,
+				A1000003187B99FE00579CB2 /* ViewController.swift in Sources */,
+				A1000030187B99FE00579CB2 /* FullViewController.swift in Sources */,
+				A1000005187B99FE00579CB2 /* JuBoxSys.swift in Sources */,
+				A1000007187B99FE00579CB2 /* JuBoxExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BC827AEB187B99FE00579CB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC827AC0187B99FE00579CB2 /* boxsys */;
-			targetProxy = BC827AEA187B99FE00579CB2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BC827ACD187B99FE00579CB2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC827ACE187B99FE00579CB2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BC827AD6187B99FE00579CB2 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC827AD7187B99FE00579CB2 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		BC827AD9187B99FE00579CB2 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC827ADA187B99FE00579CB2 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		BC827AEF187B99FE00579CB2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC827AF0187B99FE00579CB2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BC827B4B187CF13A00579CB2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC827B4C187CF13A00579CB2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		BC827AF4187B99FE00579CB2 /* Debug */ = {
+		A1000024187B99FE00579CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		BC827AF5187B99FE00579CB2 /* Release */ = {
+		A1000025187B99FE00579CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BC827AF7187B99FE00579CB2 /* Debug */ = {
+		A1000026187B99FE00579CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "boxsys/boxsys-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Build/Products/Debug-iphonesimulator/include",
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "boxsys/boxsys-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main_iPhone;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main_iPhone;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/chunyi.zhoucy/虚拟化/动态化运营活动/动态可扩展块/boxsys/Build/Products/Debug-iphoneos",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_NAME = boxsys;
-				USER_HEADER_SEARCH_PATHS = "";
-				WRAPPER_EXTENSION = app;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.ju.boxsys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BC827AF8187B99FE00579CB2 /* Release */ = {
+		A1000027187B99FE00579CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "boxsys/boxsys-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Build/Products/Debug-iphonesimulator/include",
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "boxsys/boxsys-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main_iPhone;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main_iPhone;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/chunyi.zhoucy/虚拟化/动态化运营活动/动态可扩展块/boxsys/Build/Products/Debug-iphoneos",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_NAME = boxsys;
-				USER_HEADER_SEARCH_PATHS = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		BC827AFA187B99FE00579CB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/boxsys.app/boxsys";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "boxsys/boxsys-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "boxsysTests/boxsysTests-Info.plist";
-				PRODUCT_NAME = boxsysTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		BC827AFB187B99FE00579CB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/boxsys.app/boxsys";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "boxsys/boxsys-Prefix.pch";
-				INFOPLIST_FILE = "boxsysTests/boxsysTests-Info.plist";
-				PRODUCT_NAME = boxsysTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-		BC827B53187CF13A00579CB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ENABLE_OBJC_ARC = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JuBoxSys2/JuBoxSys-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JuBoxSys2/JuBoxSys-Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.ju.boxsys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		BC827B54187CF13A00579CB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ENABLE_OBJC_ARC = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JuBoxSys2/JuBoxSys-Prefix.pch";
-				INFOPLIST_FILE = "JuBoxSys2/JuBoxSys-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC827ABC187B99FE00579CB2 /* Build configuration list for PBXProject "boxsys" */ = {
+		A100001A187B99FE00579CB2 /* Build configuration list for PBXProject "boxsys" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC827AF4187B99FE00579CB2 /* Debug */,
-				BC827AF5187B99FE00579CB2 /* Release */,
+				A1000024187B99FE00579CB2 /* Debug */,
+				A1000025187B99FE00579CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC827AF6187B99FE00579CB2 /* Build configuration list for PBXNativeTarget "boxsys" */ = {
+		A1000023187B99FE00579CB2 /* Build configuration list for PBXNativeTarget "boxsys" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC827AF7187B99FE00579CB2 /* Debug */,
-				BC827AF8187B99FE00579CB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC827AF9187B99FE00579CB2 /* Build configuration list for PBXNativeTarget "boxsysTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC827AFA187B99FE00579CB2 /* Debug */,
-				BC827AFB187B99FE00579CB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC827B52187CF13A00579CB2 /* Build configuration list for PBXNativeTarget "JuBoxSys" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC827B53187CF13A00579CB2 /* Debug */,
-				BC827B54187CF13A00579CB2 /* Release */,
+				A1000026187B99FE00579CB2 /* Debug */,
+				A1000027187B99FE00579CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC827AB9187B99FE00579CB2 /* Project object */;
+	rootObject = A1000017187B99FE00579CB2 /* Project object */;
 }
